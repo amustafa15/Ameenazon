@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525DC4F8CCBC2D85A87703A4 /* Pods_AmeenazonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B12E426C91F434AC14A4988 /* Pods_AmeenazonTests.framework */; };
+		807B6D74E7BCDE35CB4FE9BB /* Pods_Ameenazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9909A0EC77E88EB47E20CD1 /* Pods_Ameenazon.framework */; };
+		9260F40DCA77375EC860FC17 /* Pods_Ameenazon_AmeenazonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334A62DCA9C8A230B1F9FDF1 /* Pods_Ameenazon_AmeenazonUITests.framework */; };
+		C909743226A13D6000E20AB6 /* ResultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909743126A13D6000E20AB6 /* ResultsManager.swift */; };
+		C95D307B26D59CB9001A4F7B /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95D307A26D59CB9001A4F7B /* ProductViewController.swift */; };
+		C98073C526F1B0BE003842D0 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98073C326F1B0BD003842D0 /* ImageCollectionViewCell.swift */; };
+		C98073C626F1B0BE003842D0 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98073C426F1B0BD003842D0 /* ImageCollectionViewCell.xib */; };
+		C98FDAAC269B6176006C3FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAAB269B6176006C3FBA /* AppDelegate.swift */; };
+		C98FDAAE269B6176006C3FBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAAD269B6176006C3FBA /* SceneDelegate.swift */; };
+		C98FDAB0269B6176006C3FBA /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAAF269B6176006C3FBA /* SearchPageViewController.swift */; };
+		C98FDAB3269B6176006C3FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98FDAB1269B6176006C3FBA /* Main.storyboard */; };
+		C98FDAB6269B6176006C3FBA /* Ameenazon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAB4269B6176006C3FBA /* Ameenazon.xcdatamodeld */; };
+		C98FDAB8269B617E006C3FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98FDAB7269B617E006C3FBA /* Assets.xcassets */; };
+		C98FDABB269B617E006C3FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98FDAB9269B617E006C3FBA /* LaunchScreen.storyboard */; };
+		C98FDAC6269B617F006C3FBA /* AmeenazonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAC5269B617F006C3FBA /* AmeenazonTests.swift */; };
+		C98FDAD1269B617F006C3FBA /* AmeenazonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAD0269B617F006C3FBA /* AmeenazonUITests.swift */; };
+		C98FDAF0269FDC64006C3FBA /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAEF269FDC64006C3FBA /* ProductDetail.swift */; };
+		C98FDAFA269FE009006C3FBA /* ResultsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98FDAF9269FE009006C3FBA /* ResultsPage.swift */; };
+		C9B494D226BCEF5A0094E63F /* ProductSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B494D126BCEF5A0094E63F /* ProductSearch.swift */; };
+		C9B79D4226D7444000A7023D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B79D4126D7444000A7023D /* ProgressView.swift */; };
+		C9B79D4826D744F500A7023D /* ProgressShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B79D4726D744F500A7023D /* ProgressShapeLayer.swift */; };
+		C9B79D4D26D7455500A7023D /* StrokeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B79D4C26D7455500A7023D /* StrokeAnimation.swift */; };
+		C9B79D5226D7460900A7023D /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B79D5126D7460900A7023D /* RotationAnimation.swift */; };
+		C9B79D5726D7470F00A7023D /* StrokeColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B79D5626D7470F00A7023D /* StrokeColorAnimation.swift */; };
+		C9E4C46126B0D6DF00F4169F /* SearchPageResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4C45F26B0D6DF00F4169F /* SearchPageResultsCell.swift */; };
+		C9E4C46226B0D6DF00F4169F /* SearchPageResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E4C46026B0D6DF00F4169F /* SearchPageResultsCell.xib */; };
+		C9E4C46726B2450500F4169F /* ResultsPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4C46626B2450500F4169F /* ResultsPageTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C98FDAC2269B617F006C3FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98FDAA0269B6176006C3FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98FDAA7269B6176006C3FBA;
+			remoteInfo = Ameenazon;
+		};
+		C98FDACD269B617F006C3FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98FDAA0269B6176006C3FBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98FDAA7269B6176006C3FBA;
+			remoteInfo = Ameenazon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1301ABFE1BCE1A39B8E8A201 /* Pods-AmeenazonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmeenazonTests.debug.xcconfig"; path = "Target Support Files/Pods-AmeenazonTests/Pods-AmeenazonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EEA2317D3DEDBD416EBFE48 /* Pods-Ameenazon-AmeenazonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameenazon-AmeenazonUITests.release.xcconfig"; path = "Target Support Files/Pods-Ameenazon-AmeenazonUITests/Pods-Ameenazon-AmeenazonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26A09EBE078C343B0C90444C /* Pods-Ameenazon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameenazon.debug.xcconfig"; path = "Target Support Files/Pods-Ameenazon/Pods-Ameenazon.debug.xcconfig"; sourceTree = "<group>"; };
+		334A62DCA9C8A230B1F9FDF1 /* Pods_Ameenazon_AmeenazonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ameenazon_AmeenazonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342B5C545EEB48BC59CDD783 /* Pods-Ameenazon-AmeenazonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameenazon-AmeenazonUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ameenazon-AmeenazonUITests/Pods-Ameenazon-AmeenazonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B12E426C91F434AC14A4988 /* Pods_AmeenazonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmeenazonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DDB6E08E8A9D9C2FE65579 /* Pods-AmeenazonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmeenazonTests.release.xcconfig"; path = "Target Support Files/Pods-AmeenazonTests/Pods-AmeenazonTests.release.xcconfig"; sourceTree = "<group>"; };
+		C909743126A13D6000E20AB6 /* ResultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsManager.swift; sourceTree = "<group>"; };
+		C95D307A26D59CB9001A4F7B /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		C98073C326F1B0BD003842D0 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = ../ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C98073C426F1B0BD003842D0 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		C98FDAA8269B6176006C3FBA /* Ameenazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ameenazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98FDAAB269B6176006C3FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C98FDAAD269B6176006C3FBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C98FDAAF269B6176006C3FBA /* SearchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
+		C98FDAB2269B6176006C3FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C98FDAB5269B6176006C3FBA /* Ameenazon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ameenazon.xcdatamodel; sourceTree = "<group>"; };
+		C98FDAB7269B617E006C3FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C98FDABA269B617E006C3FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C98FDABC269B617E006C3FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98FDAC1269B617F006C3FBA /* AmeenazonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeenazonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98FDAC5269B617F006C3FBA /* AmeenazonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeenazonTests.swift; sourceTree = "<group>"; };
+		C98FDAC7269B617F006C3FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98FDACC269B617F006C3FBA /* AmeenazonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeenazonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98FDAD0269B617F006C3FBA /* AmeenazonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeenazonUITests.swift; sourceTree = "<group>"; };
+		C98FDAD2269B617F006C3FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98FDAEF269FDC64006C3FBA /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		C98FDAF9269FE009006C3FBA /* ResultsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsPage.swift; sourceTree = "<group>"; };
+		C9B494D126BCEF5A0094E63F /* ProductSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearch.swift; sourceTree = "<group>"; };
+		C9B79D4126D7444000A7023D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		C9B79D4726D744F500A7023D /* ProgressShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressShapeLayer.swift; sourceTree = "<group>"; };
+		C9B79D4C26D7455500A7023D /* StrokeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeAnimation.swift; sourceTree = "<group>"; };
+		C9B79D5126D7460900A7023D /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
+		C9B79D5626D7470F00A7023D /* StrokeColorAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeColorAnimation.swift; sourceTree = "<group>"; };
+		C9E4C45F26B0D6DF00F4169F /* SearchPageResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageResultsCell.swift; sourceTree = "<group>"; };
+		C9E4C46026B0D6DF00F4169F /* SearchPageResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchPageResultsCell.xib; sourceTree = "<group>"; };
+		C9E4C46626B2450500F4169F /* ResultsPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsPageTableViewController.swift; sourceTree = "<group>"; };
+		D67E31FF1EEE5B28D19317D0 /* Pods-Ameenazon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameenazon.release.xcconfig"; path = "Target Support Files/Pods-Ameenazon/Pods-Ameenazon.release.xcconfig"; sourceTree = "<group>"; };
+		F9909A0EC77E88EB47E20CD1 /* Pods_Ameenazon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ameenazon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C98FDAA5269B6176006C3FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807B6D74E7BCDE35CB4FE9BB /* Pods_Ameenazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98FDABE269B617F006C3FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525DC4F8CCBC2D85A87703A4 /* Pods_AmeenazonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98FDAC9269B617F006C3FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9260F40DCA77375EC860FC17 /* Pods_Ameenazon_AmeenazonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA357EAF5DA1AEE4C22D2F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9909A0EC77E88EB47E20CD1 /* Pods_Ameenazon.framework */,
+				334A62DCA9C8A230B1F9FDF1 /* Pods_Ameenazon_AmeenazonUITests.framework */,
+				7B12E426C91F434AC14A4988 /* Pods_AmeenazonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C956DB2F26BF5722002BD1D3 /* DetailsPageViews */ = {
+			isa = PBXGroup;
+			children = (
+				C98073C326F1B0BD003842D0 /* ImageCollectionViewCell.swift */,
+				C98073C426F1B0BD003842D0 /* ImageCollectionViewCell.xib */,
+			);
+			path = DetailsPageViews;
+			sourceTree = "<group>";
+		};
+		C98073E026F2B668003842D0 /* SearchPageViews */ = {
+			isa = PBXGroup;
+			children = (
+				C9E4C45F26B0D6DF00F4169F /* SearchPageResultsCell.swift */,
+				C9E4C46026B0D6DF00F4169F /* SearchPageResultsCell.xib */,
+			);
+			path = SearchPageViews;
+			sourceTree = "<group>";
+		};
+		C98FDA9F269B6175006C3FBA = {
+			isa = PBXGroup;
+			children = (
+				C98FDAAA269B6176006C3FBA /* Ameenazon */,
+				C98FDAC4269B617F006C3FBA /* AmeenazonTests */,
+				C98FDACF269B617F006C3FBA /* AmeenazonUITests */,
+				C98FDAA9269B6176006C3FBA /* Products */,
+				FEF3BA9422593C56F5C01C21 /* Pods */,
+				8DA357EAF5DA1AEE4C22D2F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C98FDAA9269B6176006C3FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C98FDAA8269B6176006C3FBA /* Ameenazon.app */,
+				C98FDAC1269B617F006C3FBA /* AmeenazonTests.xctest */,
+				C98FDACC269B617F006C3FBA /* AmeenazonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98FDAAA269B6176006C3FBA /* Ameenazon */ = {
+			isa = PBXGroup;
+			children = (
+				C98FDAE1269B61A1006C3FBA /* Controller */,
+				C98FDAE2269B61AA006C3FBA /* Model */,
+				C98FDAE3269B61B4006C3FBA /* View */,
+				C98FDAAB269B6176006C3FBA /* AppDelegate.swift */,
+				C98FDAAD269B6176006C3FBA /* SceneDelegate.swift */,
+				C98FDAB7269B617E006C3FBA /* Assets.xcassets */,
+				C98FDAB9269B617E006C3FBA /* LaunchScreen.storyboard */,
+				C98FDABC269B617E006C3FBA /* Info.plist */,
+				C98FDAB4269B6176006C3FBA /* Ameenazon.xcdatamodeld */,
+			);
+			path = Ameenazon;
+			sourceTree = "<group>";
+		};
+		C98FDAC4269B617F006C3FBA /* AmeenazonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C98FDAC5269B617F006C3FBA /* AmeenazonTests.swift */,
+				C98FDAC7269B617F006C3FBA /* Info.plist */,
+			);
+			path = AmeenazonTests;
+			sourceTree = "<group>";
+		};
+		C98FDACF269B617F006C3FBA /* AmeenazonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C98FDAD0269B617F006C3FBA /* AmeenazonUITests.swift */,
+				C98FDAD2269B617F006C3FBA /* Info.plist */,
+			);
+			path = AmeenazonUITests;
+			sourceTree = "<group>";
+		};
+		C98FDAE1269B61A1006C3FBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C98FDAAF269B6176006C3FBA /* SearchPageViewController.swift */,
+				C9E4C46626B2450500F4169F /* ResultsPageTableViewController.swift */,
+				C95D307A26D59CB9001A4F7B /* ProductViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C98FDAE2269B61AA006C3FBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C98FDAEF269FDC64006C3FBA /* ProductDetail.swift */,
+				C98FDAF9269FE009006C3FBA /* ResultsPage.swift */,
+				C909743126A13D6000E20AB6 /* ResultsManager.swift */,
+				C9B494D126BCEF5A0094E63F /* ProductSearch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C98FDAE3269B61B4006C3FBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C98073E026F2B668003842D0 /* SearchPageViews */,
+				C9B79D4626D744D800A7023D /* ProgressView */,
+				C956DB2F26BF5722002BD1D3 /* DetailsPageViews */,
+				C98FDAB1269B6176006C3FBA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9B79D4626D744D800A7023D /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				C9B79D4126D7444000A7023D /* ProgressView.swift */,
+				C9B79D4726D744F500A7023D /* ProgressShapeLayer.swift */,
+				C9B79D4C26D7455500A7023D /* StrokeAnimation.swift */,
+				C9B79D5126D7460900A7023D /* RotationAnimation.swift */,
+				C9B79D5626D7470F00A7023D /* StrokeColorAnimation.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		FEF3BA9422593C56F5C01C21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26A09EBE078C343B0C90444C /* Pods-Ameenazon.debug.xcconfig */,
+				D67E31FF1EEE5B28D19317D0 /* Pods-Ameenazon.release.xcconfig */,
+				342B5C545EEB48BC59CDD783 /* Pods-Ameenazon-AmeenazonUITests.debug.xcconfig */,
+				1EEA2317D3DEDBD416EBFE48 /* Pods-Ameenazon-AmeenazonUITests.release.xcconfig */,
+				1301ABFE1BCE1A39B8E8A201 /* Pods-AmeenazonTests.debug.xcconfig */,
+				C8DDB6E08E8A9D9C2FE65579 /* Pods-AmeenazonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C98FDAA7269B6176006C3FBA /* Ameenazon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98FDAD5269B617F006C3FBA /* Build configuration list for PBXNativeTarget "Ameenazon" */;
+			buildPhases = (
+				0D354BB957DBAE46A4A9BFB2 /* [CP] Check Pods Manifest.lock */,
+				C98FDAA4269B6176006C3FBA /* Sources */,
+				C98FDAA5269B6176006C3FBA /* Frameworks */,
+				C98FDAA6269B6176006C3FBA /* Resources */,
+				38EFEB5046949AAAB5D77AC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ameenazon;
+			productName = Ameenazon;
+			productReference = C98FDAA8269B6176006C3FBA /* Ameenazon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C98FDAC0269B617F006C3FBA /* AmeenazonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98FDAD8269B617F006C3FBA /* Build configuration list for PBXNativeTarget "AmeenazonTests" */;
+			buildPhases = (
+				48E0C01E29088EF6EE797D46 /* [CP] Check Pods Manifest.lock */,
+				C98FDABD269B617F006C3FBA /* Sources */,
+				C98FDABE269B617F006C3FBA /* Frameworks */,
+				C98FDABF269B617F006C3FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98FDAC3269B617F006C3FBA /* PBXTargetDependency */,
+			);
+			name = AmeenazonTests;
+			productName = AmeenazonTests;
+			productReference = C98FDAC1269B617F006C3FBA /* AmeenazonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C98FDACB269B617F006C3FBA /* AmeenazonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98FDADB269B617F006C3FBA /* Build configuration list for PBXNativeTarget "AmeenazonUITests" */;
+			buildPhases = (
+				50195DD33C04FD2D3F9557AA /* [CP] Check Pods Manifest.lock */,
+				C98FDAC8269B617F006C3FBA /* Sources */,
+				C98FDAC9269B617F006C3FBA /* Frameworks */,
+				C98FDACA269B617F006C3FBA /* Resources */,
+				2373606872B3F24A99C143EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98FDACE269B617F006C3FBA /* PBXTargetDependency */,
+			);
+			name = AmeenazonUITests;
+			productName = AmeenazonUITests;
+			productReference = C98FDACC269B617F006C3FBA /* AmeenazonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C98FDAA0269B6176006C3FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C98FDAA7269B6176006C3FBA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C98FDAC0269B617F006C3FBA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C98FDAA7269B6176006C3FBA;
+					};
+					C98FDACB269B617F006C3FBA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C98FDAA7269B6176006C3FBA;
+					};
+				};
+			};
+			buildConfigurationList = C98FDAA3269B6176006C3FBA /* Build configuration list for PBXProject "Ameenazon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C98FDA9F269B6175006C3FBA;
+			productRefGroup = C98FDAA9269B6176006C3FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C98FDAA7269B6176006C3FBA /* Ameenazon */,
+				C98FDAC0269B617F006C3FBA /* AmeenazonTests */,
+				C98FDACB269B617F006C3FBA /* AmeenazonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C98FDAA6269B6176006C3FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98FDABB269B617E006C3FBA /* LaunchScreen.storyboard in Resources */,
+				C98FDAB8269B617E006C3FBA /* Assets.xcassets in Resources */,
+				C98FDAB3269B6176006C3FBA /* Main.storyboard in Resources */,
+				C98073C626F1B0BE003842D0 /* ImageCollectionViewCell.xib in Resources */,
+				C9E4C46226B0D6DF00F4169F /* SearchPageResultsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98FDABF269B617F006C3FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98FDACA269B617F006C3FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D354BB957DBAE46A4A9BFB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ameenazon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2373606872B3F24A99C143EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ameenazon-AmeenazonUITests/Pods-Ameenazon-AmeenazonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ameenazon-AmeenazonUITests/Pods-Ameenazon-AmeenazonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ameenazon-AmeenazonUITests/Pods-Ameenazon-AmeenazonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38EFEB5046949AAAB5D77AC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ameenazon/Pods-Ameenazon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ameenazon/Pods-Ameenazon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ameenazon/Pods-Ameenazon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E0C01E29088EF6EE797D46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmeenazonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50195DD33C04FD2D3F9557AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ameenazon-AmeenazonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98FDAA4269B6176006C3FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B79D4826D744F500A7023D /* ProgressShapeLayer.swift in Sources */,
+				C98FDAFA269FE009006C3FBA /* ResultsPage.swift in Sources */,
+				C9B79D5726D7470F00A7023D /* StrokeColorAnimation.swift in Sources */,
+				C98FDAB6269B6176006C3FBA /* Ameenazon.xcdatamodeld in Sources */,
+				C98FDAB0269B6176006C3FBA /* SearchPageViewController.swift in Sources */,
+				C98FDAAC269B6176006C3FBA /* AppDelegate.swift in Sources */,
+				C9B79D4226D7444000A7023D /* ProgressView.swift in Sources */,
+				C95D307B26D59CB9001A4F7B /* ProductViewController.swift in Sources */,
+				C9E4C46126B0D6DF00F4169F /* SearchPageResultsCell.swift in Sources */,
+				C9E4C46726B2450500F4169F /* ResultsPageTableViewController.swift in Sources */,
+				C98FDAAE269B6176006C3FBA /* SceneDelegate.swift in Sources */,
+				C98FDAF0269FDC64006C3FBA /* ProductDetail.swift in Sources */,
+				C98073C526F1B0BE003842D0 /* ImageCollectionViewCell.swift in Sources */,
+				C9B79D4D26D7455500A7023D /* StrokeAnimation.swift in Sources */,
+				C9B494D226BCEF5A0094E63F /* ProductSearch.swift in Sources */,
+				C9B79D5226D7460900A7023D /* RotationAnimation.swift in Sources */,
+				C909743226A13D6000E20AB6 /* ResultsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98FDABD269B617F006C3FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98FDAC6269B617F006C3FBA /* AmeenazonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98FDAC8269B617F006C3FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98FDAD1269B617F006C3FBA /* AmeenazonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C98FDAC3269B617F006C3FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98FDAA7269B6176006C3FBA /* Ameenazon */;
+			targetProxy = C98FDAC2269B617F006C3FBA /* PBXContainerItemProxy */;
+		};
+		C98FDACE269B617F006C3FBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98FDAA7269B6176006C3FBA /* Ameenazon */;
+			targetProxy = C98FDACD269B617F006C3FBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C98FDAB1269B6176006C3FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98FDAB2269B6176006C3FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C98FDAB9269B617E006C3FBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98FDABA269B617E006C3FBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C98FDAD3269B617F006C3FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C98FDAD4269B617F006C3FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C98FDAD6269B617F006C3FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A09EBE078C343B0C90444C /* Pods-Ameenazon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU7K3CDN2H;
+				INFOPLIST_FILE = Ameenazon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A15.Ameenazon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C98FDAD7269B617F006C3FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67E31FF1EEE5B28D19317D0 /* Pods-Ameenazon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU7K3CDN2H;
+				INFOPLIST_FILE = Ameenazon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A15.Ameenazon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C98FDAD9269B617F006C3FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1301ABFE1BCE1A39B8E8A201 /* Pods-AmeenazonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU7K3CDN2H;
+				INFOPLIST_FILE = AmeenazonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A15.AmeenazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ameenazon.app/Ameenazon";
+			};
+			name = Debug;
+		};
+		C98FDADA269B617F006C3FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DDB6E08E8A9D9C2FE65579 /* Pods-AmeenazonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU7K3CDN2H;
+				INFOPLIST_FILE = AmeenazonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A15.AmeenazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ameenazon.app/Ameenazon";
+			};
+			name = Release;
+		};
+		C98FDADC269B617F006C3FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342B5C545EEB48BC59CDD783 /* Pods-Ameenazon-AmeenazonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU7K3CDN2H;
+				INFOPLIST_FILE = AmeenazonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A15.AmeenazonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ameenazon;
+			};
+			name = Debug;
+		};
+		C98FDADD269B617F006C3FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEA2317D3DEDBD416EBFE48 /* Pods-Ameenazon-AmeenazonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU7K3CDN2H;
+				INFOPLIST_FILE = AmeenazonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = A15.AmeenazonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ameenazon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C98FDAA3269B6176006C3FBA /* Build configuration list for PBXProject "Ameenazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98FDAD3269B617F006C3FBA /* Debug */,
+				C98FDAD4269B617F006C3FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98FDAD5269B617F006C3FBA /* Build configuration list for PBXNativeTarget "Ameenazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98FDAD6269B617F006C3FBA /* Debug */,
+				C98FDAD7269B617F006C3FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98FDAD8269B617F006C3FBA /* Build configuration list for PBXNativeTarget "AmeenazonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98FDAD9269B617F006C3FBA /* Debug */,
+				C98FDADA269B617F006C3FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98FDADB269B617F006C3FBA /* Build configuration list for PBXNativeTarget "AmeenazonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98FDADC269B617F006C3FBA /* Debug */,
+				C98FDADD269B617F006C3FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C98FDAB4269B6176006C3FBA /* Ameenazon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C98FDAB5269B6176006C3FBA /* Ameenazon.xcdatamodel */,
+			);
+			currentVersion = C98FDAB5269B6176006C3FBA /* Ameenazon.xcdatamodel */;
+			path = Ameenazon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C98FDAA0269B6176006C3FBA /* Project object */;
+}

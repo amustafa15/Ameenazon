@@ -1,0 +1,6 @@
+framework module Pods_Ameenazon_AmeenazonUITests {
+  umbrella header "Pods-Ameenazon-AmeenazonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

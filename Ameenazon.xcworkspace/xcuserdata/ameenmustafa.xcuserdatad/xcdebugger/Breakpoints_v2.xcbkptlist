@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AE3096AE-B871-4335-B1DE-16D572A34057"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE - 1079619886ea5f06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCarouselViewCell.productImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE - f36cc435e429a312"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCarouselViewCell.productImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE - 4d94d5800817f8b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCarouselViewCell.productImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE - fdc2f591bbf5d1e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCarouselViewCell.productImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE - acb38760fbd32775"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCarouselViewCell.init(frame: __C.CGRect) -&gt; Ameenazon.ImageCarouselViewCell"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "D739A8DE-E109-497A-960F-D55092CA5BDE - e00697d4468ba1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCarouselViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ameenazon.ImageCarouselViewCell&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/DetailsPageViews/ImageCarouselViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "268DA06D-358C-4538-BBDF-18026C45C194"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ameenazon/View/ImageCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ImageCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "268DA06D-358C-4538-BBDF-18026C45C194 - 755977965acd3263"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCollectionViewCell.productImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "268DA06D-358C-4538-BBDF-18026C45C194 - 3b4a4f71b1030657"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCollectionViewCell.productImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "268DA06D-358C-4538-BBDF-18026C45C194 - f287c73c3bf1c715"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCollectionViewCell.productImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "268DA06D-358C-4538-BBDF-18026C45C194 - d02215d16b3120f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCollectionViewCell.productImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "268DA06D-358C-4538-BBDF-18026C45C194 - 4481e2ddeddf11a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCollectionViewCell.init(frame: __C.CGRect) -&gt; Ameenazon.ImageCollectionViewCell"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "268DA06D-358C-4538-BBDF-18026C45C194 - f49d68dcfd256691"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ameenazon.ImageCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ameenazon.ImageCollectionViewCell&gt;"
+                  moduleName = "Ameenazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenmustafa/Desktop/Apps/ios%20projects/Ameenazon/Ameenazon/View/ImageCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
